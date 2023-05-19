@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> QR code generator</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+          <span class="navbar-brand text-light text-center w-100" href="#">QR</span>
+        </div>
+      </nav>
+    <div class="container p-5">
+        <form id="form">
+            <div class="mb-3">
+              
+              <input type="text" id="input" placeholder="enter text here" class="form-control rounded-0 " >
+          <select name="name" id="size" class="form-control my-3 rounded-0">
+            <!-- <option value="50*50">50*50</option>
+            <option value="100*100">100*100</option>
+            <option value="200*200">200*200</option>
+            <option value="300*300">300*300</option>
+            <option value="400*400">400*400</option>
+            <option value="500*500">500*500</option> -->
+            <option value="100x100">100x100</option>
+            <option value="200x200">200x200</option>
+            <option value="350x350">350x350</option>
+            <option value="500x500">500x500</option>
+            <option value="700x700">700x700</option>
+          </select>
+
+            </div>
+           
+            <button type="submit" class="btn btn-primary w-100 rounded-0">Submit</button>
+          </form>
+          <div class="d-flex justify-content-center mt-4">
+
+              <img class="img-fluid" src="./e4af9f0025a8ce68bee2cf5a1360a501.gif" >
+          </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
